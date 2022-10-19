@@ -1,0 +1,9 @@
+Test-Command: sbcl --script debian/tests/runtests.lisp
+Depends: @, sbcl
+
+Test-Command: ecl -norc -shell debian/tests/runtests.lisp
+Depends: @, ecl
+
+Test-Command: clisp -norc debian/tests/runtests.lisp
+Depends: @, clisp
+Restrictions: allow-stderr

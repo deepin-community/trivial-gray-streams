@@ -1,0 +1,4 @@
+version=4
+opts="mode=git, pgpmode=none, pretty=%cd.git%h" \
+https://github.com/trivial-gray-streams/trivial-gray-streams.git \
+HEAD debian uupdate

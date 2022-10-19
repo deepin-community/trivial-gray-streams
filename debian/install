@@ -1,0 +1,1 @@
+*.lisp *.asd test/ usr/share/common-lisp/source/cl-trivial-gray-streams/

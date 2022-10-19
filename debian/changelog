@@ -1,0 +1,116 @@
+trivial-gray-streams (20210117.git2b3823e-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream snapshot
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Sébastien Villemot <sebastien@debian.org>  Fri, 05 Nov 2021 15:38:47 +0100
+
+trivial-gray-streams (20200731.git8e6a1a0-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Sébastien Villemot ]
+  * New upstream snapshot
+  * Bump to debhelper 13
+  * Bump to S-V 4.5.1
+  * debian/upstream/metadata: add more fields
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+ -- Sébastien Villemot <sebastien@debian.org>  Fri, 18 Dec 2020 11:28:41 +0100
+
+trivial-gray-streams (20180909.gitebd59b1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+    + fixes compilation issue against SBCL 1.4.11 (Closes: #908367)
+  * Simplify debian/tests/runtests.lisp.
+  * Add Rules-Requires-Root: no
+  * Bump S-V to 4.2.1
+
+ -- Sébastien Villemot <sebastien@debian.org>  Thu, 20 Sep 2018 19:48:07 +0200
+
+trivial-gray-streams (20180311.git425aeca-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add missing Source/Upstream-Name/Upstream-Contact in d/copyright.
+  * Mark package as Multi-Arch: foreign.
+  * Set Maintainer to debian-common-lisp@l.d.o.
+  * Bump Standards-Version to 4.1.4.
+  * autopkgtest for CLISP: do not depend on cl-asdf, since ASDF now bundled.
+
+ -- Sébastien Villemot <sebastien@debian.org>  Sat, 14 Apr 2018 09:43:11 +0200
+
+trivial-gray-streams (20180311.git425aeca-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Fix Homepage field.
+  * Improve package description.
+  * Remove Build-Depends on dh-lisp.
+  * d/watch: point to git HEAD, and use ${DATE}.git${COMMIT} as upstream version
+    number.
+  * Bump to debhelper compat level 11.
+  * Add debian/source/format.
+  * Ship testsuite.
+  * Rewrite debian/rules using dh.
+  * Rewrite debian/copyright using machine-readable format 1.0.
+  * Bump Standards-Version to 4.1.3.
+  * Vcs-* fields now point to salsa.
+  * Add an autopkgtest that runs the testsuite on sbcl, ecl and clisp.
+
+ -- Sébastien Villemot <sebastien@debian.org>  Sat, 24 Mar 2018 21:47:20 +0100
+
+trivial-gray-streams (20091021-1) unstable; urgency=low
+
+  * New upstream. Major changes:
+    + XCVB support (by Fare <fahree@gmail.com>)
+    + SBCL file-position support
+  * Removed I from description
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Thu, 31 Dec 2009 10:08:26 +0100
+
+trivial-gray-streams (20081101-1) unstable; urgency=low
+
+  * New upstream release with minor patches.
+  * Added debian/README.building file
+  * Changed to lisp section
+  * Updated Standards Version no changes
+  * Update to debhelper v7
+  * Added dummy debian/watch file
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Fri, 18 Sep 2009 07:10:48 +0200
+
+trivial-gray-streams (20060914-3) unstable; urgency=low
+
+  * Changed to group maintanance
+  * Corrected Vcs-Git control field
+  * swap binary-indep and binary-arch round
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Fri, 07 Mar 2008 23:09:06 +0100
+
+trivial-gray-streams (20060914-2) UNRELEASED; urgency=low
+
+  * Added Homepage information
+  * Updated standard version without real changes
+  * Corrected Vcs-Bzr field
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Mon, 24 Dec 2007 06:04:28 +0100
+
+trivial-gray-streams (20060914-1) unstable; urgency=low
+
+  * New upstream release
+  * Compress ChangeLog file
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Wed, 20 Sep 2006 21:28:47 +0200
+
+trivial-gray-streams (20051205-1) unstable; urgency=low
+
+  * First packaging
+
+ -- Peter Van Eynde <pvaneynd@debian.org>  Mon, 15 May 2006 01:19:18 +0200
